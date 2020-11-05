@@ -2,8 +2,8 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 @SaveTo(path = "file.txt")
-private class TextContainer {
-    public String text = "text";
+public class TextContainer {
+    private String text = "text";
 
     @Saver
     public void save(String path) throws IOException {
