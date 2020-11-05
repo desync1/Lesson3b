@@ -2,7 +2,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 @SaveTo(path = "file.txt")
-public class TextContainer {
+private class TextContainer {
     public String text = "text";
 
     @Saver
